@@ -1,0 +1,32 @@
+.wrapper {
+  max-width: 450px;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.display {
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 700;
+  width: 50%;
+  margin: 0 auto 20px;
+}
+
+.controlButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.controlButton {
+  text-align: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
