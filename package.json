@@ -1,7 +1,7 @@
 {
   "name": "teach_me_react",
   "version": "0.1.0",
-  "homepage": "https://SergeenkoAlesya.github.io/React-project.git",
+  "homepage": "https://SergeenkoAlesya.github.io/React-project",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
