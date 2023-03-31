@@ -22,7 +22,7 @@ const Router = () => {
         element={<ConditionalRenderingContainer />}
       />
       <Route path={ROUTE_NAMES.LISTS} element={<ListsContainer />} />
-      <Route path="*" element={<h1>404 Not Found</h1>} />
+      <Route path="*" element={<h1>404 NOT Found</h1>} />
     </Routes>
   );
 };
