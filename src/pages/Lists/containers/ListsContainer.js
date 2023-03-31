@@ -16,6 +16,7 @@ const ListsContainer = () => {
   const [users, setUsers] = useState([]);
   const [date, setDate] = useState(new Date().getSeconds());
 
+  console.log(date);
   useEffect(() => {
     const timer = setInterval(() => {
       setDate(new Date().getSeconds());
