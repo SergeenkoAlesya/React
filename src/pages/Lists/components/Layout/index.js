@@ -4,8 +4,8 @@ import UserCard from "../../../../commonComponents/UserCard";
 import PropTypes from "prop-types";
 
 import styles from "./styles.module.scss";
-import calcAverage from "utils/calcAverage";
-import { collectUserIds } from "utils/collectUserIds";
+import { calcAverage } from "utils";
+import { collectUserIds } from "pages/Lists/utils/collectUserIds";
 
 const Layout = ({
   users,
